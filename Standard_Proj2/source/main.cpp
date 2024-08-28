@@ -35,6 +35,11 @@ int tribonacci(int n) {
     }
     return current;
 }
+template <typename t>
+void ausgabe(t var)
+{
+    std::cout << var << std::endl;
+}
 
 int main(int argc, char** argv)
 {
@@ -44,7 +49,8 @@ int main(int argc, char** argv)
     }
 
     std::cout << fibonacci(3) << '\n';
-
+    std::cout << tribonacci(3) << '\n';
+    ausgabe<int>(5);
     std::cout << std::endl;
 	return 0;
 }
