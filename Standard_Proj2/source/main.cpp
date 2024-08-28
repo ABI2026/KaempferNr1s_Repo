@@ -25,7 +25,7 @@ int main(int argc, char** argv)
         std::cout << argv[i] << '\n';
     }
 
-    std::cout << fibonacci(5) << '\n';
+    std::cout << fibonacci(3) << '\n';
 
     std::cout << std::endl;
 	return 0;
